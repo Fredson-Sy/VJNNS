@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscrição</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+  
+    <div class='container'>
+      <div class='card'>
+        <h1> Inscrição </h1>
+  
+        <div id='msgError'></div>
+        <div id='msgSuccess'></div>
+  
+        <div class="label-float">
+          <input type="text" id="nome" placeholder=" " required>
+          <label id="labelNome" for="nome">Nome</label>
+        </div>
+        
+        <div class="label-float">
+          <input type="email" id="email" placeholder=" " required>
+          <label id="labelEmail" for="email">Email</label>
+        </div>
+  
+        <div class="label-float">
+          <input type="email" id="confirmEmail" placeholder=" " required>
+          <label id="labelConfirmEmail" for="confirmEmail">Confirmar Email</label>
+        </div>
+  
+        <div class='justify-center'>
+          <button onclick='cadastrar()'>Inscrever-se</button>
+        </div>
+  
+  
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html
